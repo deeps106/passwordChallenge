@@ -135,8 +135,8 @@ is special letters. If yes is chosesn here a function should draw out speical ca
 password should be generated without special characters. Need to use for loops and iterate into the array(s)*/
 
 //numbers array
-for (let i = 0; i < numericCharacter.length; i++) {
-  const numeral = numericCharacter[i];
+for (let i = 0; i < numericCharacters.length; i++) {
+  const numeral = numericCharacters[i];
   Math.random()
 }
 
