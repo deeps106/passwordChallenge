@@ -88,6 +88,8 @@ var upperCasedCharacters = [
   'Z'
 ];
 
+const characterArray = upperCasedCharacters.concat(lowerCasedCharacters, numericCharacters, specialCharacters);
+console.log(characterArray);
 
 // declaring the variable passwordLength and attrributing the minimum length of 10
 let passwordLength = 10;
@@ -137,7 +139,9 @@ password should be generated without special characters. Need to use for loops a
 //numbers array
 for (let i = 0; i < numericCharacters.length; i++) {
   const numeral = numericCharacters[i];
-  Math.random()
+  Math.floor(Math.random())
+
+
 }
 
 
@@ -145,8 +149,7 @@ for (let i = 0; i < numericCharacters.length; i++) {
 
 /* Function for getting a random element from an array
 function getRandom(arr) {
-
-}
+I would first need to create a large array of all the pw characters and call it characterArray
 
 // Function to generate password with user input
 function generatePassword() {
